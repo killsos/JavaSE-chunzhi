@@ -1,6 +1,9 @@
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		System.out.println("Hello world");
+		Test04 t1 = new Test04();
+		
+		t1.test();
 	}
+	
 }
