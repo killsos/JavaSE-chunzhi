@@ -1,9 +1,10 @@
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		Test04 t1 = new Test04();
+		Test06 t1 = new Test06();
 		
 		t1.test();
+		
 	}
 	
 }
