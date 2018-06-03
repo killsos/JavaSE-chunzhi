@@ -1,9 +1,8 @@
 
 public class HelloWorld {
 	public static void main(String[] args) {
-		Test10 t1 = new Test10();
-		
-		System.out.println(t1);
+		Extend3 e3 = new Extend3();
+		e3.say();
 	}
 	
 }
