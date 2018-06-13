@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 
 public class HelloWorld {
 	public static void main(String[] args) throws Exception {
@@ -6,15 +7,13 @@ public class HelloWorld {
 		
 		TestPackage01SubClass tpsc = new TestPackage01SubClass();
 		
-		tpsc.name();
+		ArrayList l1 = new ArrayList();
 		
-		String s1 = "123";
+		l1.add("123");
 		
-		String s2 = new String("123");
+		l1.add(fc);
 		
-		System.out.println(s1.equals(s2));
-		
-		System.out.println(s1 == s2);
+		System.out.println(l1);
 	}
 	
 }
